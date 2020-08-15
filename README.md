@@ -1,3 +1,3 @@
 # first-web
 First try with html css
-[open] (https://first-web.netlify.app/)
+Open in browser using the following link: https://first-web.netlify.app/
