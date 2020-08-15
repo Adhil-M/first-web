@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mystery+Quest&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+#header{
+    background-image: url(../images/img2.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.link{
+    color: rgb(245, 194, 194);
+    font-family: 'Mystery Quest', cursive;
+}
+.tab{
+    padding-right: 0.3cm;
+}
+
+.link:hover{
+    color: rgb(255, 255, 255) !important;
+}
+.my-nav{
+    background-color: transparent !important;
+    height: 1cm;
+    padding: 0;
+}
+.name{
+    color: rgb(255, 255, 255);
+    height: auto !important;
+    font-size: 30px;
+    padding: 0 ;
+    padding-left: 0.5cm;
+    font-family: 'Permanent Marker', cursive;
+}
+.search{
+    margin-left:20px;
+    margin-right: 0em;
+    border-top-left-radius: 20cm;
+    border-bottom-left-radius: 20cm;
+    border-right: none;
+    background-color: rgba(0,0,0,0.3);
+    color: white;
+    border: 0.5mm thin white;
+    height: 1cm;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: small;
+    position: relative;
+}
+.search::placeholder{
+    color: rgb(255, 255, 255);
+}
+.search:focus{
+    box-shadow: none;
+    background-color: rgba(0,0,0,0.5);
+}
+.container1{
+    display: flex;
+    justify-content: center;
+    height: 8cm;
+    align-items: center;
+}
+.container1 > input[type=text]{
+    color: rgb(255, 255, 255);
+}
+.sicon{
+    background-color: transparent;
+    border-top-right-radius: 20cm;
+    border-bottom-right-radius: 20cm;
+    border-left:none ;
+    height: 1cm;
+    border: 0.5mm thin white;
+    color: rgb(255, 255, 255);
+    left:-22px !important ;
+    margin: 0em;
+   
+}
+.sidebox{
+    height: 20cm;
+    background-color: teal;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    height: 10cm;
+    background-color: rgb(218, 213, 213);
+    border-radius: 1mm;
+    margin: 10px 10px;
+}
+.login > h3{
+    margin-bottom: 50px;
+    color: salmon !important;
+}
+.loginp{
+    background-color: transparent;
+    margin-bottom: 20px;
+    justify-content: center;
+    border-top: none;
+    outline: none;
+    border-left: none;
+    border-right: none;
+}
+.loginp:focus{
+    border-top: none;
+    border-left: none;
+    border-right: none; 
+    border-bottom-color:rgb(238, 80, 69);
+    box-shadow: blue;
+}
+.login-button{
+    margin-top: 10px;
+    color: rgb(250, 250, 250);
+    width: 40%;
+    height: 30px;
+    background-image: radial-gradient(rgb(240, 67, 44),rgba(69, 14, 158, 0.993));
+    outline: none;
+    font-size: small;
+    border: none;
+    border-radius: 20mm;
+    transition: 1s;
+}
+.login-button:active{
+    background-color: rgb(255, 0, 221);
+    color: rgb(200, 255, 0);
+}
+.my-card{
+    padding-top: 9cm;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 90%;
+    height: auto;
+    margin: 10px 0;
+    border: none;
+    border-radius: 3mm;
+    transition: 0.2s;
+
+}
+.my-card:hover{
+    color: rgb(253, 60, 11);
+    transform: scale(1.01);
+    box-shadow: 4px 4px 10px rgb(102, 101, 101),-4px -4px 10px rgb(102, 101, 101);
+}
+.c1{
+    background-image: url(../images/car1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+.c2{
+    background-image: url(../images/car2.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+.c3{
+    background-image: url(../images/car3.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+.c4{
+    background-image: url(../images/car4.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+.welcome{
+    width: 90%;
+    background-color: rgb(224, 202, 245) ;
+    margin: 20px 0px;
+    border-radius: 4px;
+}
+.welcome > h2{
+    margin-top: 30px;
+    font-family: 'Roboto Slab', serif;
+}
+.welcome > p{
+    font-size: 20px;
+    margin: 10px;
+}
+.welcome > h1{
+    margin-top: 10px;
+    margin-right: 30px;
+}
+.last{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    align-items: center;
+    font-family: 'Roboto Slab', serif;
+    justify-content: center;
+    width: 90%;
+    height: 6cm;
+    background-color: rgb(102, 168, 255);
+    margin-top: 20px;
+    border-radius: 2mm;
+    text-align: center;
+}
+.sug{
+    border: none;
+    width: 70%;
+    margin: 50px auto;
+    justify-self: center;
+}
+.sug:focus{
+    border: none;
+    box-shadow: none;
+}
+.footer{
+    height: auto;
+}
+.connect{
+    padding-top: 1cm;
+    color: rgb(212, 209, 209);
+    display: flex;
+    flex-direction: column;
+}
+.connect > ul{
+    color: rgb(255, 230, 230);
+    list-style: none;
+    margin-left: -30px;
+    margin-top: 20px;
+}
+.logo{
+    height: inherit;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: safe;
+    align-items: center;
+}
+.footlink:hover{
+    text-decoration: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:728px){
+   
+
+    .my-card{
+        width: 70%;
+        height: 15cm;
+    }
+    .search{
+        width: 50%;
+        margin-top: 1cm;
+    }
+    .sicon{
+        margin-top: 1cm;
+    }
+}
+@media screen and (max-width:800px){
+
+    .my-card{
+        width: 80%;
+    }
+    .search{
+        width: 50%;
+    }
+}
+@media screen and (max-width:992px){
+
+    .my-card{
+        width: 80%;
+    }
+    .search{
+        width: 50%;
+    }
+    
+}
+
+
+@media screen and (min-width:992px){
+    .nav-custom{
+        padding-right: 2cm;
+    }
+    .tab{
+        padding-left: 4cm;
+    }
+    .name{
+        padding-left: 2cm;
+        font-size: 35px;
+    }
+    #header{
+        height: 16cm;
+    }
+    .search{
+        width: 20%;
+        margin-top: 12cm;
+    }
+    .sicon{
+        margin-top: 12cm;
+    }
+    .welcome > h1{
+        margin-right: 650px;
+        font-size: 1.3cm;
+        padding-left: 50px;
+    }
+    .last{
+        height: 10cm;
+        width: 95%;
+    }
+    .footer{
+        height: 9cm;
+        padding-top: 1cm;
+    }
+} 
+@media screen and (max-width:576px){
+    .logo{
+        justify-content: center;
+        margin-top: 2cm;
+    }
+    .connect{
+        align-items: center;
+    }
+}
+
+
